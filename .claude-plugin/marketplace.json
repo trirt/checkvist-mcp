@@ -1,0 +1,7 @@
+{
+  "name": "checkvist",
+  "owner": { "name": "Checkvist", "url": "https://checkvist.com" },
+  "plugins": [
+    { "name": "checkvist", "source": "./", "description": "Checkvist MCP server" }
+  ]
+}

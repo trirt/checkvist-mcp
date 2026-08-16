@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "checkvist": {
+      "type": "http",
+      "url": "https://checkvist.com/mcp"
+    }
+  }
+}

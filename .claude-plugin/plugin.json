@@ -1,0 +1,8 @@
+{
+  "name": "checkvist",
+  "description": "Checkvist MCP server — read and edit your Checkvist lists from Claude.",
+  "version": "0.1.0",
+  "author": { "name": "Checkvist", "url": "https://checkvist.com" },
+  "homepage": "https://checkvist.com/help/mcp",
+  "mcpServers": "./.mcp.json"
+}
