@@ -2,6 +2,14 @@
   "name": "checkvist",
   "owner": { "name": "Checkvist", "url": "https://checkvist.com" },
   "plugins": [
-    { "name": "checkvist", "source": "./", "description": "Checkvist MCP server" }
+    {
+      "name": "checkvist",
+      "displayName": "Checkvist",
+      "source": "./",
+      "category": "productivity",
+      "description": "Use the Checkvist plugin to let Claude read and search your lists. Save summaries, action items, and task lists directly to Checkvist. You choose whether Claude gets read-only or write access.",
+      "keywords": ["checkvist", "outliner", "todo", "tasks", "notes", "productivity", "mcp"],
+      "homepage": "https://checkvist.com/help/mcp"
+    }
   ]
 }

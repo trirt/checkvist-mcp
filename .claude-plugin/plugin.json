@@ -1,8 +1,11 @@
 {
   "name": "checkvist",
-  "description": "Checkvist MCP server — read and edit your Checkvist lists from Claude.",
+  "description": "Checkvist integration. Read, search, and edit your Checkvist outlines from Claude: summarize lists, add items in bulk with hierarchy, set due dates with smart syntax, complete or move items, and export to markdown.",
   "version": "0.1.0",
   "author": { "name": "Checkvist", "url": "https://checkvist.com" },
   "homepage": "https://checkvist.com/help/mcp",
+  "repository": "https://github.com/trirt/checkvist-claude-plugin",
+  "license": "MIT",
+  "keywords": ["checkvist", "outliner", "todo", "tasks", "notes", "productivity", "mcp"],
   "mcpServers": "./.mcp.json"
 }
