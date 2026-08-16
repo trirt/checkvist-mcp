@@ -12,12 +12,13 @@ You choose whether Claude Code gets read-only or write access.
 
 ## Install
 
+In the command line, run
 ```
-/plugin marketplace add trirt/checkvist-claude-plugin
-/plugin install checkvist@checkvist
+claude plugin marketplace add trirt/checkvist-claude-plugin
+claude plugin install checkvist@checkvist
 ```
 
-Then run `/mcp` and authenticate. The server speaks OAuth, so there is no API token to paste —
+Then run `/mcp` in the claude code and authenticate. The server speaks OAuth, so there is no API token to paste —
 and you can grant read-only access if you prefer. Connected apps are listed on your
 [Profile → Tools](https://checkvist.com/auth/profile#tools) page and can be disconnected there.
 
