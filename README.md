@@ -1,4 +1,3 @@
-<img src="logo.svg" alt="Checkvist" width="72" align="left" hspace="12">
 
 # Checkvist plugin for Claude Code
 
