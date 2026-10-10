@@ -1,0 +1,20 @@
+{
+  "name": "checkvist",
+  "interface": {
+    "displayName": "Checkvist"
+  },
+  "plugins": [
+    {
+      "name": "checkvist",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/trirt/checkvist-mcp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

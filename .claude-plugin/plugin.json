@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "author": { "name": "Checkvist", "url": "https://checkvist.com" },
   "homepage": "https://checkvist.com/help/mcp",
-  "repository": "https://github.com/trirt/checkvist-claude-plugin",
+  "repository": "https://github.com/trirt/checkvist-mcp",
   "license": "MIT",
   "keywords": ["checkvist", "outliner", "todo", "tasks", "notes", "productivity", "mcp"],
   "mcpServers": "./.mcp.json"
