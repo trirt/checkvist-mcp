@@ -12,6 +12,8 @@ You choose whether Claude Code gets read-only or write access.
 
 ## Install
 
+### Claude Code
+
 In the command line, run
 ```
 claude plugin marketplace add trirt/checkvist-claude-plugin
@@ -21,6 +23,15 @@ claude plugin install checkvist@checkvist
 Then run `/mcp` in the claude code and authenticate. The server speaks OAuth, so there is no API token to paste —
 and you can grant read-only access if you prefer. Connected apps are listed on your
 [Profile → Tools](https://checkvist.com/auth/profile#tools) page and can be disconnected there.
+
+### Gemini CLI
+
+The same repository is also a Gemini CLI extension:
+```
+gemini extensions install https://github.com/trirt/checkvist-claude-plugin
+```
+
+Gemini CLI opens the browser for OAuth on the first connection.
 
 ## What you can ask for
 

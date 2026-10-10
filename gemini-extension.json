@@ -1,0 +1,10 @@
+{
+  "name": "checkvist",
+  "version": "1.0.0",
+  "description": "Checkvist integration. Read, search, and edit your Checkvist outlines: summarize lists, add items in bulk with hierarchy, set due dates with smart syntax, complete or move items, and export to markdown.",
+  "mcpServers": {
+    "checkvist": {
+      "httpUrl": "https://checkvist.com/mcp"
+    }
+  }
+}
