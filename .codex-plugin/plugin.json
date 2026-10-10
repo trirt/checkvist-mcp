@@ -1,0 +1,39 @@
+{
+  "name": "checkvist",
+  "version": "0.1.0",
+  "description": "Checkvist integration. Read, search, and edit your Checkvist outlines from Codex: summarize lists, add items in bulk with hierarchy, set due dates with smart syntax, complete or move items, and export to markdown.",
+  "author": {
+    "name": "Checkvist",
+    "url": "https://checkvist.com"
+  },
+  "homepage": "https://checkvist.com/help/mcp",
+  "repository": "https://github.com/trirt/checkvist-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "checkvist",
+    "outliner",
+    "todo",
+    "tasks",
+    "notes",
+    "productivity",
+    "mcp"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Checkvist",
+    "shortDescription": "Work with your Checkvist lists from Codex.",
+    "longDescription": "Read and search Checkvist outlines, summarize lists, add hierarchical items in bulk, set due dates, complete or move items, and export lists as Markdown or OPML.",
+    "developerName": "Checkvist",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://checkvist.com",
+    "defaultPrompt": [
+      "Summarize a Checkvist list.",
+      "Find my current due tasks in Checkvist.",
+      "Create a Checkvist list from our conversation."
+    ]
+  }
+}
